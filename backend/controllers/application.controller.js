@@ -42,7 +42,7 @@ export const applyJob = async (req, res) => {
             success:true
         })
     } catch (error) {
-        console.log(error);
+        (error);
     }
 };
 export const getAppliedJobs = async (req,res) => {
